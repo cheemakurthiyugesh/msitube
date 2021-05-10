@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+      .row.content {height: 1500px}
+      
+      /* Set gray background color and 100% height */
+      .sidenav {
+        background-color: #89a5ce;
+        height: 100%;
+      }
+      
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+      
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height: auto;} 
+      }
+    </style>
+  </head>
+  <body>
+  
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav">
+        <h4>MSIT</h4>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#section1">Home</a></li>
+          <li><a href="#section2">PYTHON</a></li>
+          <li><a href="#section3">JAVA</a></li>
+          <li><a href="#section3">DBMS</a></li>
+        </ul><br>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search Blog..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </div>
+  
+      <div class="col-sm-9">
+        <h4><small> </small></h4>
+        <hr>
+        <h2>MSIT PROGRAM</h2>
+        
+        
+        <p>MSIT (MS in IT or Master of Science in Information Technology) is a two year post graduate program in Computer Science started in 2001. MSIT is an innovative multi-university interdisciplinary post-graduate program. MSIT program is being offered by “Consortium of Institutions of Higher Learning” (CIHL), formed by the Universities. Under MOU with CMU, some Carnegie Mellon Researchers are providing guidance on the course content. MSIT is currently offered at International Institute of Information Technology (IIIT-H), Hyderabad, School of IT, Jawaharlal Nehru Technological University Hyderabad (JNTUH), College of Engineering, Jawaharlal Nehru Technological University Kakinada (JNTUK), College of Engineering, Jawaharlal Nehru Technological University Anantapur (JNTUA) and Sri Venkateswara University Tirupati (SVU).</p>
+        <br><br>
+        <div class="container">
+          <h2>Carousel Example</h2>  
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images.jfif" alt="images" style="width:100%;">
+              </div>
+        
+              <div class="item">
+                <img src="m1.jpg.jpg" alt="m1.jpg" style="width:100%;">
+              </div>
+            
+              <div class="item">
+                <img src="msit.jfif" alt="msit" style="width:100%;">
+              </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        
+        <hr>
+        
+        
+        <p>MSIT has been designed to develop technically competent, highly productive, and self motivated professionals in tune with the demands of an ever changing market.The program aims to groom not only IT professionals, but also experts from other domains offering a unique and comprehensive program that exposes the learners to some of the finest universities both in India and abroad. At the end of their stint with MSIT, they will be armed as they are with new found confidence and vigor,step out into the world to further practice the skills they have learnt in this program</p>
+        <hr>
+  
+        
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <br><br>
+        
+        <p><span class="badge">2</span> Comments:</p><br>
+        
+        <div class="row">
+          <div class="col-sm-2 text-center">
+            <img src="m1.jpg.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+          </div>
+          <div class="col-sm-10">
+            <h4>msit <small>Sep 29, 2015, 9:12 PM</small></h4>
+            <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br>
+          </div>
+          <div class="col-sm-2 text-center">
+            <img src="msit.jfif" class="img-circle" height="65" width="65" alt="Avatar">
+          </div>
+          <div class="col-sm-10">
+            <h4>John Row <small>Sep 25, 2015, 8:25 PM</small></h4>
+            <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br>
+            <p><span class="badge">1</span> Comment:</p><br>
+            <div class="row">
+              <div class="col-sm-2 text-center">
+                <img src="m1.jpg.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+              </div>
+              <div class="col-xs-10">
+                <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
+                <p>Me too! WOW!</p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+<footer class="container-fluid">
+  <p>Consortium of Institutions of Higher Learning, IIIT Campus, Gachibowli, Hyderabad - 500032 Phone: 040-66531342 Mobile: +91 7799834583,+91 7799834585 E-mail: enquiries@msitprogram.net</p>
+</footer>
+
+</body>
+</html>
+
+
